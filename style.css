@@ -1,0 +1,44 @@
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+	background-image: url(hamburgueza.jpg);
+	background-repeat: repeat-x;
+}
+
+#titulo{
+	background-color: orange;
+	border:5px solid #901212;
+	border-radius: 500px ;
+	letter-spacing: 4px;
+	font-family:cursive
+	
+	
+}
+h1{
+	color:#4B0A0A;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+}
+ul{
+	background:#A04000 ;
+	list-style: none;
+	width: 100%;
+}
+li{
+	float: left;
+	width: auto;
+}
+#encabezado{
+	background:#A04000;
+	left: 300px;
+	color: white;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px 55px;
+	display: block;
+	position: relative;
+}

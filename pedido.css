@@ -1,0 +1,31 @@
+html{
+    font-family: system-ui;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(fondo.jpg);
+}
+ul{
+    display: block;
+    font-weight: bold;
+    list-style: none;
+    font-size: 20px;
+    padding-left: 1200px;
+    color: black;
+ }
+.wrap{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+img{
+    width: 450px;
+    height: 800px;
+    padding-left: 140px;
+}
+@media (min-width:991px){
+    .general{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
